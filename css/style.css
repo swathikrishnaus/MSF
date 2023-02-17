@@ -1,0 +1,214 @@
+body{
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+/* ------------------navbar css start------------------ */
+.navbar .nav-item .nav-link{
+    color: rgb(41, 40, 40);
+    padding: 25px;
+}
+.navbar .nav-item .nav-link:focus, .navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link.active{
+    color: #006300;
+    font-weight: bold;
+}
+/* ------------------navbar css end------------------ */
+
+
+/* ------------------Common css start------------------ */
+.main-color{
+    color: #006300;
+}
+.main-head{
+    color: #006300;
+    width: 65%;
+}
+.para-color{
+    color: #646464;
+}
+.button-style{
+    background-color: #006300;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+    border: 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.button-style:hover{
+    background-color: #e9fae9;
+    color: #006300;
+    border: 1px solid #006300;
+}
+.head-section h3{
+    margin: 0 auto;
+    width: 40%;
+}
+.head-section p{
+    width: 70%;
+    margin: 0 auto;
+}
+/* ------------------Common css end------------------ */
+
+
+/* ------------------home css end------------------ */
+.home{
+    margin-top: 50px;
+    padding: 50px;
+}
+.home img{
+    filter: brightness(28%);
+    border-radius: 15px;
+    height: 88vh!important;
+}
+.home .carousel-caption{
+    top: 55%;
+    transform: translateY(-50%);
+}
+.home .carousel-caption h1{
+    font-size: 40px;
+    width: 60%;
+    margin: 0 auto;
+}
+.home .carousel-caption p{
+    font-size: 15px;
+    width: 60%;
+    margin: 0 auto;
+    color: rgb(209, 209, 209);
+    font-weight: lighter;
+}
+.carousel-indicators{
+    top: 80%;
+}
+.carousel-indicators button{
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+}
+.carousel-indicators button.active, .carousel-indicators button:hover, .carousel-indicators button:focus{
+    width: 8px!important;
+    height: 8px!important;
+    border-radius: 50%;
+    margin-top: 1px!important;
+    background-color: white;
+}
+/* ------------------home css start------------------ */
+
+/* ------------------about css start------------------ */
+.about{
+    margin-top: 100px;
+}
+.about .about-para{
+    width: 85%;
+    text-align: justify;
+}
+.about .about-img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+.about .left-section{
+    margin-top: 10%;
+}
+.about .right-section .row{
+    margin-top: -30px;
+}
+.about .right-section .card{
+    border: 0;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    height: 100%;
+}
+.about .right-section .card .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #475B1D;
+}
+.about .about-story{
+    margin-top: 100px;
+}
+.about-story h3{
+    margin: 0 auto;
+    width: 40%;
+}
+.about .about-story-para{
+    width: 70%;
+    margin: 0 auto;
+}
+.about .about-story .story-steps img{
+    width: 50px;
+    height: auto;
+}
+.about .about-story .story-steps h6{
+    width: 40%;
+}
+.about .story-steps{
+    margin-top: 50px;
+}
+.about .story-steps p{
+    text-align: justify!important;
+}
+.about .number-bg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #578E57;
+    padding: 7px;
+}
+.about .little-para{
+    width: 40%;
+    margin: 0 auto;
+}
+/* ------------------about css end------------------ */
+
+/* ------------------blogs-events css start------------------ */
+.blogs-events{
+    margin-top: 100px;
+}
+.blogs-events a{
+    text-decoration: none;
+}
+.blogs-events .card{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #CAD3CA;
+}
+.blogs-events .card button{
+    padding: 8px 50px;
+    margin: 0 auto;
+    font-size: 12px;
+    display: block;
+}
+.blogs-events .card .date{
+    font-size: 12px;
+    color: #453C3C;
+}
+.blogs-events .blog-cards{
+    margin-top: 50px;
+}
+.blogs-events .card-body{
+    padding: 10px 10px 30px 10px;
+}
+/* ------------------blogs-events css end------------------ */
+
+/* ------------------testimonial css start------------------ */
+.testimonial{
+    margin-top: 150px;
+    background-color: #EEF5EE;
+    padding: 50px;
+}
+.testimonial .testimonial-carousel{
+    margin-top: 50px;
+}
+.testimonial-carousel .line{
+    opacity: 0.6;
+}
+.testimonial .clients-card p{
+    text-align: justify;
+}
+/* ------------------testimonial css end------------------ */
